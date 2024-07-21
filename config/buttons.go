@@ -7,8 +7,8 @@ package config
 import "github.com/PaulSonOfLars/gotgbot/v2"
 
 var Buttons map[string][][]gotgbot.InlineKeyboardButton = map[string][][]gotgbot.InlineKeyboardButton{
-	"START": {{aboutButton, helpButton}, {{Text: "ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ", Url: "https://tg-message-store.vercel.app"}}},
-	"ABOUT": {{homeButton, helpButton}, {{Text: "Source 🔗", Url: "https://github.com/Jisin0/TGMessageStore"}}},
+	"START": {{aboutButton, helpButton}, {{Text: "ᴄᴏɴɴᴇᴄᴛ ʏᴏᴜʀ ᴏᴡɴ ʙᴏᴛ", Url: "https://noob-file-store.vercel.app"}}},
+	"ABOUT": {{homeButton, helpButton}, {{Text: "OWNER 🍃", Url: "https://t.me/l_abani"}}},
 	"HELP":  {{aboutButton, homeButton}},
 }
 
