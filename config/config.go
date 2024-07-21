@@ -34,9 +34,9 @@ func init() {
 		fmt.Println("configs loaded from config.env file")
 	}
 
-	DBChannel = int64Environ("DB_CHANNEL","-1002213130366")
-	Admins = int64ListEnviron("ADMINS","6742022802")
-	FsubChannels = int64ListEnviron("FSUB","-1002246016095")
+	DBChannel = int64Environ("DB_CHANNEL")
+	Admins = int64ListEnviron("ADMINS")
+	FsubChannels = int64ListEnviron("FSUB")
 	BatchSizeLimit = int64Environ("BATCH_SIZE_LIMIT", defaultBatchLimit)
 	DisableNotification = strings.ToLower(os.Getenv("DISABLE_NOTIFICATION")) == stringTrue
 	ProtectContent = strings.ToLower(os.Getenv("PUBLIC_CONTENT")) == stringTrue
