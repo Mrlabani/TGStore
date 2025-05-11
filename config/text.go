@@ -18,8 +18,8 @@ var Commands map[string]string = map[string]string{
 `,
 	"ABOUT": `
 ○ <b>Language</b>: <a href='https://go.dev'>GO</a>
-○ <b>Library</b>: <a href='https://github.com/PaulSonOfLars/gotgbot'>GoTgbot</a>
-○ <b>Support</b>: <a href='https://t.me/FractalProjects'>@Fractal</a>
+○ <b>Library</b>: <a href='https://t.me/noob_project'>GoTgbot</a>
+○ <b>Support</b>: <a href='https://t.me/noob_project'>@l_abani</a>
 	`,
 
 	"HELP": `
