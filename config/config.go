@@ -15,7 +15,7 @@ import (
 
 const (
 	stringTrue        = "true"
-	defaultBatchLimit = 100000
+	defaultBatchLimit = 1000
 )
 
 var (
